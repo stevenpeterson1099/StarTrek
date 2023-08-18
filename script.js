@@ -14,8 +14,8 @@ function getRandomImage() {
 var randomImage = new Array();  
   
 //insert the URL of images in array  
-randomImage[0] = "Engineering.jpg";  
-randomImage[1] = "TheLog.jpg";  
+randomImage[0] = "Images/Engineering.jpg";  
+randomImage[1] = "Images/TheLog.jpg";  
   
 //generate a number and provide to the image to generate randomly  
 var number = Math.floor(Math.random()*randomImage.length);  
